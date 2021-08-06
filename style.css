@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    Font-size: 15px;
+    Font-family: 'Lexend Deca', sans-serif;
+}
+.page-container{
+    
+    display: flex;
+    background-color: hsl(0, 0%, 95%);
+    width: 60%;
+    margin-top: 12vh;
+    overflow: hidden;
+    border-radius: 5px; 
+    overflow: hidden;
+}
+
+.sidebar{
+    background-color: hsl(31, 77%, 52%);
+    padding: 20px;
+    font-size: 100%;
+    color: white;
+    margin-left: 0%;
+}
+.sidebar1{
+    background-color: hsl(179, 100%, 13%);
+    padding: 20px;
+    color:white;
+    font-size: 100%;
+}
+.main{
+    background-color: hsl(184, 100%, 22%);
+    padding: 20px;
+    color:white;
+    font-size: 100%;
+}
+
+.sidebar input[type="submit"]
+{
+border: none;
+outline: none;
+height: 60px;
+width: 100%;
+background: hsl(0, 0%, 95%);
+font-size: 18px;
+color:hsl(31, 77%, 52%);
+border-radius:30px;}
+
+.sidebar input[type="submit"]:hover
+{
+
+    cursor:pointer ;
+    background:#0666a7;
+    color:#000;
+}
+
+
+
+.main input[type="submit"]
+{
+border: none;
+outline: none;
+height: 60px;
+width: 100%;
+background: hsl(0, 0%, 95%);
+color:hsl(184, 100%, 22%) ;
+font-size: 18px;
+border-radius:30px;
+}
+
+.main input[type="submit"]:hover
+{
+
+    cursor:pointer ;
+    background:#0666a7;
+    color:#000;
+}
+
+.sidebar1 input[type="submit"]
+{
+border: none;
+outline: none;
+height: 60px;
+width: 100%;
+background: hsl(0, 0%, 95%);
+font-size: 18px;
+color:hsl(179, 100%, 13%);
+border-radius:30px;}
+
+.sidebar1 input[type="submit"]:hover
+{
+
+    cursor:pointer ;
+    background:#0666a7;
+    color:#000;
+}
+@media screen and (max-width: 800px){
+    .page-container{
+        flex-wrap: wrap;
+        width: 80%;
+        margin-top: 15vh;
+    }
+    
+}
+.page-container svg{
+margin: 10px;
+}
+.page-container h1{
+    color:hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    margin: 10px;
+}
+.page-container p{
+    font-weight:700 ;
+    font-family:'Lexend Deca', sans-serif;
+   color:hsla(0, 0%, 100%, 0.75);
+}
