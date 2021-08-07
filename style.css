@@ -5,20 +5,24 @@
 
 }
 body{
-   
+    
     background-color: white;
     display: flex;
     justify-content: center;
     Font-size: 15px;
     Font-family: 'Lexend Deca', sans-serif;
 }
-.enclosing{
+.enclosing {
+    flex-wrap: wrap;
+    overflow:scroll;
+    display: flex;
     box-shadow: 10px 10px 10px 10px grey;
     background-color: whitesmoke;
-    width: 90%;
-    height: 580px;
+    width: 80%;
+    height: 600px;
     border: 1px solid whitesmoke;
     margin: 50px;
+   padding-right: 50px;
   
     
    
@@ -32,32 +36,32 @@ body{
     margin-left: 12vh;
     border-radius: 5px; 
     overflow: hidden;
-    
+
 }
 
 .sedans{
     background-color: hsl(31, 77%, 52%);
     padding: 20px;
     font-size: 100%;
-    width: 600px;
+    width: 800px;
     color: white;
-    height: 430px;
+    height: 450px;
 }
 .luxury{
     background-color: hsl(179, 100%, 13%);
     padding: 20px;
-    width: 600px;
-    height: 430px;
+    width: 800px;
+    height: 450px;
     color:white;
     font-size: 100%;
 }
 .suvs{
     background-color: hsl(184, 100%, 22%);
     padding: 20px;
-    width: 600px;
+    width: 800px;
     color:white;
-    height: 430px;
-    
+    height: 450px;
+
 }
 
 .sedans input[type="submit"]
@@ -121,13 +125,12 @@ border-radius:30px;}
     background:#0666a7;
     color:#000;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px){   
     .page-container{
         flex-wrap: wrap;
         width: 80%;
         margin-top: 15vh;
     }
-    
 }
 .page-container svg{
 margin: 10px;
