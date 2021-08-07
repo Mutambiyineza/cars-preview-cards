@@ -5,20 +5,22 @@
 
 }
 body{
-    
-    background-color: hsl(0, 0%, 95%);
+   
+    background-color: white;
     display: flex;
     justify-content: center;
     Font-size: 15px;
     Font-family: 'Lexend Deca', sans-serif;
 }
 .enclosing{
-    box-shadow: 5px 5px 5px grey;
-    display: flex;
+    box-shadow: 10px 10px 10px 10px grey;
     background-color: whitesmoke;
     width: 90%;
     height: 580px;
     border: 1px solid whitesmoke;
+    margin: 50px;
+  
+    
    
 }
 
@@ -27,12 +29,13 @@ body{
     background-color: hsl(0, 0%, 95%);
     width: 80%;
     margin-top: 12vh;
-    overflow: hidden;
+    margin-left: 12vh;
     border-radius: 5px; 
     overflow: hidden;
+    
 }
 
-.sidebar{
+.sedans{
     background-color: hsl(31, 77%, 52%);
     padding: 20px;
     font-size: 100%;
@@ -40,7 +43,7 @@ body{
     color: white;
     height: 430px;
 }
-.sidebar1{
+.luxury{
     background-color: hsl(179, 100%, 13%);
     padding: 20px;
     width: 600px;
@@ -48,7 +51,7 @@ body{
     color:white;
     font-size: 100%;
 }
-.main{
+.suvs{
     background-color: hsl(184, 100%, 22%);
     padding: 20px;
     width: 600px;
@@ -57,7 +60,7 @@ body{
     
 }
 
-.sidebar input[type="submit"]
+.sedans input[type="submit"]
 {
 border: none;
 position: relative;
@@ -69,7 +72,7 @@ font-size: 18px;
 color:hsl(31, 77%, 52%);
 border-radius:30px;}
 
-.sidebar input[type="submit"]:hover
+.sedans input[type="submit"]:hover
 {
 
     cursor:pointer ;
@@ -79,7 +82,7 @@ border-radius:30px;}
 
 
 
-.main input[type="submit"]
+.suvs input[type="submit"]
 {
 border: none;
 position:relative;
@@ -92,7 +95,7 @@ font-size: 18px;
 border-radius:30px;
 }
 
-.main input[type="submit"]:hover
+.suvs input[type="submit"]:hover
 {
 
     cursor:pointer ;
@@ -100,7 +103,7 @@ border-radius:30px;
     color:#000;
 }
 
-.sidebar1 input[type="submit"]
+.luxury input[type="submit"]
 {
 border: none;
 outline: none;
@@ -111,7 +114,7 @@ font-size: 18px;
 color:hsl(179, 100%, 13%);
 border-radius:30px;}
 
-.sidebar1 input[type="submit"]:hover
+.luxury input[type="submit"]:hover
 {
 
     cursor:pointer ;
